@@ -19,10 +19,10 @@ that were "lost" while he was offline are sent to him.
 
 When a UDP client sends a message, the bit string is "parsed" and is currently saved in a specific structure for each data type (of the 4).
 
-- structure of type intDatagram for type INT;
-- structure of type shortDatagram for type SHORT_REAL;
-- structure of type floatDatagram for type FLOAT;
-- structure of type stringDatagram for type STRING;
+        - structure of type intDatagram for type INT;
+        - structure of type shortDatagram for type SHORT_REAL;
+        - structure of type floatDatagram for type FLOAT;
+        - structure of type stringDatagram for type STRING;
 
 Then the content is formatted according to the other parameters and saved in a new
 data structure ("store" type structure) together with the UDP client ip, but also 
